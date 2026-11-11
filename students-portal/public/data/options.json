@@ -1,0 +1,14 @@
+{
+  "countries": [
+    "Ghana", "Nigeria", "Kenya", "South Africa", "Egypt", "Ethiopia", "Tanzania",
+    "Uganda", "Rwanda", "Senegal", "Côte d'Ivoire", "Cameroon", "Morocco",
+    "United Kingdom", "United States", "Canada", "India", "Brazil", "Germany", "France"
+  ],
+  "courses": [
+    "Computer Science", "Software Engineering", "Information Technology",
+    "Business Administration", "Accounting", "Economics", "Law",
+    "Medicine", "Nursing", "Pharmacy", "Civil Engineering",
+    "Electrical Engineering", "Mechanical Engineering", "Architecture",
+    "Education", "Mass Communication"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "students-portal",
+  "version": "1.0.0",
+  "description": "A simple students' portal: landing page, registration form, students index and details pages.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}

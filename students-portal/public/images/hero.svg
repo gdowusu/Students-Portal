@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 400" role="img" aria-label="Illustration of students using a portal">
+  <rect width="520" height="400" rx="24" fill="#e0e7ff"/>
+  <circle cx="420" cy="80" r="46" fill="#fde68a"/>
+  <!-- browser window -->
+  <rect x="70" y="70" width="380" height="250" rx="14" fill="#ffffff" stroke="#1e3a8a" stroke-width="4"/>
+  <rect x="70" y="70" width="380" height="36" rx="14" fill="#1e3a8a"/>
+  <rect x="70" y="92" width="380" height="14" fill="#1e3a8a"/>
+  <circle cx="92" cy="88" r="5" fill="#fca5a5"/>
+  <circle cx="110" cy="88" r="5" fill="#fde68a"/>
+  <circle cx="128" cy="88" r="5" fill="#86efac"/>
+  <!-- profile card -->
+  <circle cx="130" cy="165" r="28" fill="#93c5fd"/>
+  <circle cx="130" cy="157" r="10" fill="#1e3a8a"/>
+  <path d="M110 182c4-12 36-12 40 0v6h-40z" fill="#1e3a8a"/>
+  <rect x="175" y="147" width="150" height="12" rx="6" fill="#1e3a8a"/>
+  <rect x="175" y="171" width="110" height="10" rx="5" fill="#94a3b8"/>
+  <!-- table rows -->
+  <rect x="100" y="215" width="320" height="16" rx="6" fill="#e2e8f0"/>
+  <rect x="100" y="241" width="320" height="16" rx="6" fill="#f1f5f9"/>
+  <rect x="100" y="267" width="320" height="16" rx="6" fill="#e2e8f0"/>
+  <rect x="360" y="217" width="46" height="12" rx="6" fill="#16a34a"/>
+  <rect x="360" y="243" width="46" height="12" rx="6" fill="#f59e0b"/>
+  <rect x="360" y="269" width="46" height="12" rx="6" fill="#16a34a"/>
+  <!-- graduation cap -->
+  <polygon points="400,300 450,325 400,350 350,325" fill="#fbbf24" stroke="#1e3a8a" stroke-width="3"/>
+  <path d="M370 335v18c0 8 14 14 30 14s30-6 30-14v-18l-30 15z" fill="#1e3a8a"/>
+</svg>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Students' Portal - All Students</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <!-- Top Navbar (same on every page) -->
+  <header class="navbar">
+    <div class="container">
+      <a href="/index.html" class="logo">
+        <img src="/images/logo.svg" alt="">
+        <span>Students' Portal</span>
+      </a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/form.html">Register</a></li>
+          <li><a href="/students.html" class="active">Students</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Table of all students, filled in by students.js -->
+  <main>
+    <section class="page">
+      <div class="container">
+        <h1 class="page-title">All Students</h1>
+        <p class="page-subtitle">Every student registered on the portal.</p>
+
+        <div class="card">
+          <div id="table-message" class="alert alert-error hidden" role="alert"></div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>S/N</th>
+                  <th>Name</th>
+                  <th>Email</th>
+                  <th>Course</th>
+                  <th>Country</th>
+                  <th>Status</th>
+                  <th>View</th>
+                </tr>
+              </thead>
+              <tbody id="students-body">
+                <tr><td colspan="7" class="empty-state">Loading students...</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2026 Students' Portal. All rights reserved.</p>
+  </footer>
+
+  <script src="/js/students.js"></script>
+</body>
+</html>
